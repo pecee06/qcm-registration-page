@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Outfit&family=Pacifico&display=swap");
+
+.font-1 {
+  font-family: "Kanit", sans-serif;
+}
+.font-2 {
+  font-family: "Outfit", sans-serif;
+}
+.font-3 {
+  font-family: "Pacifico", cursive;
+}
+
+.grid {
+  display: grid;
+}
+/* for social icons */
+.grid2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.grid2 a i {
+  font-size: 2rem;
+}
+.spanx2 {
+  grid-column: span 2;
+}
+
+.spany2 {
+  grid-row: span 2;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.vertical-text {
+  transform: rotate(270deg);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.light-font {
+  font-weight: 100;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.align {
+  align-items: center;
+}
+
+.my-1 {
+  margin-bottom: 15px;
+}
+
+.grey {
+  color: #e3f4f4;
+}
+
+.char-space {
+  letter-spacing: 3px;
+}
+
+.border {
+  border: 1px solid black;
+}

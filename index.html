@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="icon" type="image/x-icon" href="resources/logo.png">
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="logos flex align">
+      <a href="https://www.quizzersclubmanit.in/">
+        <img class="qcm" src="resources/logo.png" alt="" />
+      </a>
+      <span class="font-3">QUIZZERS' CLUB MANIT</span>
+      <img class="manit" src="resources/manit.png" alt="" />
+    </div>
+    <div class="container grid">
+      <div class="cube-container spanx2 flex justify align">
+        <h1 class="heading font-1 text-center">
+          <span class="span1">POWER</span> OF
+          <span class="span3">YOUR <span class="span2">MIND</span></span>
+        </h1>
+      </div>
+
+      <div class="form-container spany2 flex justify align">
+        <!-- form -->
+        <form action="#" class="grid">
+          <div>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="enter your name"
+            />
+          </div>
+          <div>
+            <label for="std">Class</label>
+            <input
+              type="number"
+              name="std"
+              id="std"
+              required
+              placeholder="enter your class"
+            />
+          </div>
+          <div>
+            <label for="school">School</label>
+            <input
+              type="text"
+              name="school"
+              id="school"
+              placeholder=" enter school name"
+            />
+          </div>
+          <div>
+            <label for="phone">Contact</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              required
+              placeholder="contact number"
+            />
+          </div>
+          <div>
+            <label for="altPhone">Alternate Contact</label>
+            <input
+              type="tel"
+              name="altPhone"
+              id="altPhone"
+              placeholder="alternate number"
+            />
+          </div>
+          <div>
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              spellcheck="false"
+              id="email"
+              placeholder="email address"
+              onkeyup="validateEmail()"
+            />
+            <p id="email-error"></p>
+          </div>
+          <div>
+            <label for="place">City</label>
+            <input
+              type="text"
+              name="place"
+              id="place"
+              placeholder="city name"
+            />
+          </div>
+          <div>
+            <label for="dob">Birth Date</label>
+            <input type="date" required name="dob" id="dob" />
+          </div>
+          <div class="spanx2">
+            <input class="btn" type="submit" value="Register" />
+          </div>
+        </form>
+      </div>
+      <div class="vertical-text font-2 flex justify align">
+        <span class="subtitle light-font char-space">Quiz 2023</span>
+      </div>
+      <div class="about font-2 light-font">
+        <h3 class="my-1 char-space">About</h3>
+        <p class="grey">
+          <!-- Sample text -->
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+          officia.
+        </p>
+        <p class="grey">
+          <!-- Sample text -->
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+    </div>
+    <div class="social">
+      <p class="font-2">Our social media links</p>
+      <!-- <img class="image1" src="resources\van-tay-media-WMDKC8moG9w-unsplash.jpg" alt=""> -->
+      <footer class="grid">
+          <div class="icons">
+            <a href="https://www.facebook.com/quizzersclub" target="_blank">
+              <img class="fb" src="resources/facebook.svg" alt="" />
+            </a>
+          </div>
+          <div class="icons">
+            <a
+              href="https://instagram.com/quizzersclub?igshid=NTc4MTIwNjQ2YQ=="
+              target="_blank"
+            >
+            <img class="insta" src="resources/instagram.svg" alt="" /></a>
+          </div>
+          <div class="icons">
+            <a
+              href="https://www.linkedin.com/company/quizzersclub/"
+              target="_blank"
+            >
+            <img class="linkedin" src="resources/linkedin.svg" alt="" /></a>
+          </div>
+
+          <div class="icons">
+            <a href="https://www.google.com/intl/en_in/gmail/" target="_blank">
+              <img class="email" src="resources/email.svg" alt="" /></a>
+          </div>
+      </footer>
+    </div>
+    <div class="footer">
+      <p class="p1">&copy; All rights reserved.</p>
+      <p class="p2">Quizzers' Club MANIT 2023.</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
